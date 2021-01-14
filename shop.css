@@ -161,25 +161,6 @@ p,a {
         justify-content: center;
         align-items: center;
     }
-
-   
-}
-
-
-
-@media screen and (max-width:1200px) {
-    
-    .responsive {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-
-}
-
-@media screen and (max-width:1200px) {
-    
     .grid {
         display:grid;
         grid-template-columns:400px 400px ;
@@ -191,7 +172,17 @@ p,a {
         width: 400px;
         
     }
+    
+  .responsive {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
 }
+
 
 @media screen and (max-width:800px) {
     
