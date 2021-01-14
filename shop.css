@@ -149,7 +149,7 @@ p,a {
         width: 460px;
     }
     .trolly-photo {
-        width: 500px;
+        width: 460px;
     }
 }
 
@@ -169,7 +169,7 @@ p,a {
         align-items: center;
     }
     .card-size {
-        width: 400px;
+        width: 380px;
         
     }
     
@@ -194,17 +194,17 @@ p,a {
         align-items: center;
     }
     .card-size {
-        width: 400px;
+        width: 380px;
         
         
     }
 
     .img-r-size img{
-        width: 460px;
+        width: 380px;
     }
 
     .trolly-photo {
-        width:460px ;
+        width:380px ;
     }
    
 }
