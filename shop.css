@@ -1,0 +1,221 @@
+/* head-start */
+/* nav-start */
+.flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ li {
+    padding: 0 40px;
+}
+
+.nav-image img {
+    width: 200px;
+}
+
+/* nav-end */
+
+.image-p {
+    padding:0 20 0 20px;
+}
+.h-bg-color {
+    background-color: rgb(178, 223, 132);
+    border-radius: 10px;
+}
+
+
+.bg-image {
+    background-image: url("Option-1 Penguin Fashion/bg-2.png");
+    background-repeat: no-repeat;
+}
+
+.bg-card-color {
+    margin: 30px;
+    background-color: rgb(209, 204, 204);
+    border-radius: 30px;
+    
+}
+
+/* head-end */
+/* main-start */
+.size-extra {
+    padding: 20px;
+}
+
+.size-extra img {
+    height: 400px;
+}
+
+.padding {
+    padding: 0 15px;
+}
+
+
+.trolly-photo {
+    width: 650px;
+    margin: 20px 0;
+}
+
+
+
+.icon {
+    display: flex;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+}
+.height {
+    height: 100px;
+}
+.css-card {
+    width: 450px;
+    height: 180px;
+    box-sizing: border-box;
+    
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.css-card:hover {
+    box-shadow: 5px 5px 5px gray;
+    background-color: rgb(212, 142, 154);
+    color: white;
+}
+
+.img {
+    width: 95px;
+}
+
+.text {
+    padding-left: 20px;
+}
+
+.margin {
+    margin: 20px 0;
+}
+
+
+
+.background-color {
+    background-image: linear-gradient(45deg,pink,coral);
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+i {
+    padding-right: 8px;
+}
+/* fb,tw,intra etc icon start */
+.size {
+    font-size: 30px;
+    color: white;
+    
+}
+
+p,a {
+    padding: 0 10px;
+}
+
+.pad {
+    padding: 20px;
+}
+
+.align {
+    text-align: center;
+}
+
+.icon-style a,i:hover {
+    color:red;
+    
+}
+/* fb,tw,intra etc icon end */
+
+
+/* main-end */
+.style {
+    font-weight: bold;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:1500px){
+
+    .img-r-size img{
+        width: 460px;
+    }
+    .trolly-photo {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    .res {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+}
+
+
+
+@media screen and (max-width:1200px) {
+    
+    .responsive {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    
+    .grid {
+        display:grid;
+        grid-template-columns:400px 400px ;
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-size {
+        width: 400px;
+        
+    }
+}
+
+@media screen and (max-width:800px) {
+    
+    .grid {
+        display:grid;
+        grid-template-columns: 400px ;
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-size {
+        width: 400px;
+        
+        
+    }
+
+    .img-r-size img{
+        width: 460px;
+    }
+
+    .trolly-photo {
+        width:460px ;
+    }
+   
+}
+
+
